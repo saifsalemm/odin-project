@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="left-div">
+            <div class="floating-div">
+                <img class="ea-img" src="ea-logo.png" alt="Elite Academy" width="40%" height="auto">
+            </div>
+        </div>
+        <div class="right-div">
+            <div class="heading-div">
+                <h3>This is not a real online service! You know you need somthing like this in you life to help your realize your deepest dreams
+                    <br><em>Sign up now to get started.</em></h3>
+            </div>
+            <form method="POST" action="">
+                <div class="form-div">
+                    <div class="form-heading">
+                        <h3>Let's Do This</h3>
+                    </div>
+                    <div class="cols">
+                        <div class="col-1">
+                            <label for="first_name">First name</label><br>
+                            <input type="text" name="first_name" minlength="5" required><br>
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" required><br>
+                            <label for="password">Password</label><br>
+                            <input type="password" name="password" required><br>
+                        </div>
+                        <div class="col-2">
+                            <label for="last_name">Last name</label><br>
+                            <input type="text" name="last_name" required><br>
+                            <label for="tel">Phone number</label><br>
+                            <input type="tel" name="tel" required><br>
+                            <label for="conf-password">Confirm password</label><br>
+                            <input type="password" name="conf-password" required><br>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Create Account">
+                <p class="have-account">Already have an account? <a href="#"><strong>Log in</strong></a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Cairo";
+}
+body {
+    margin: 0px;
+}
+.main-div {
+    display: flex;
+}
+.left-div {
+    width: 40%;
+    height: 100vh;
+    background-image: url(test-img.jpg);
+    background-size: cover;
+}
+.right-div {
+    width: 60%;
+    background-color: #eee;
+    height: 100vh;
+}
+.floating-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-top: 15%;
+    min-height: 100px;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.ea-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-div {
+    display: inline-block;
+    margin: 15vh 7vw 0 3vw;
+}
+em {
+    color: #596D48;
+}
+strong {
+    color: #596D48;
+}
+.cols {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.form-heading {
+    margin: 10px;
+}
+input {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 80%;
+    min-height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 3px;
+}
+input:focus {
+    border: 1px solid #add8e6;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+input:focus:invalid {
+    border: 1px solid red;
+}
+.form-div {
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+.col-1 {
+    width: 48%;
+}
+.col-2 {
+    width: 48%;
+}
+input[type="submit"] {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #596D48;
+    padding: 10px;
+    margin-left: 5%;
+    width: auto;
+    border-radius: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #313C28;
+}
+.have-account {
+    margin: 10px 10px 10px 20px;
+    display: inline-block;
+} 
